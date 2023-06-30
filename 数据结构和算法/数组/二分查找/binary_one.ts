@@ -11,7 +11,7 @@ function  binary (nums: number [], target: number) {
         } else if(nums[middle] === target) {
             return middle
         } else  {
-            return -1
+            return -1;
         }
     }
     return -1
